@@ -27,7 +27,7 @@ public class Hw3_2 {
 			enterValue = sc.nextInt();
 		}
 
-		System.out.println("你答對了，恭喜你完成作業二");
+		System.out.println("你答對了，恭喜你完成作業二-2");
 	}
 
 }
