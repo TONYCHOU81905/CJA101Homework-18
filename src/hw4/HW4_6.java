@@ -10,7 +10,6 @@ public class HW4_6 {
 				{ 98, 70, 89, 90, 75, 90, 89, 90 }, { 90, 80, 100, 75, 50, 20, 99, 75 } };
 		int hightestArray[] = new int[6];
 		for (int i = 0; i < scoresArray.length; i++) {
-			System.out.println("第" + (i + 1) + "次考試");
 			int highestStudent = 1;
 			int highestScores = 0;
 			for (int s = 0; s < scoresArray[i].length; s++) {
@@ -35,14 +34,7 @@ public class HW4_6 {
 		System.out.println("====================");
 		HW4_6 hw = new HW4_6();
 		for (int i = 1; i < 9; i++) {
-		hw.count(hightestArray, i);
-//		hw.count(hightestArray, 2);
-//		hw.count(hightestArray, 3);
-//		hw.count(hightestArray, 4);
-//		hw.count(hightestArray, 5);
-//		hw.count(hightestArray, 6);
-//		hw.count(hightestArray, 7);
-//		hw.count(hightestArray, 8);
+			hw.count(hightestArray, i);
 		}
 
 	}
