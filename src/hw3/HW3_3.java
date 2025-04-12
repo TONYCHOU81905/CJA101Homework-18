@@ -26,6 +26,7 @@ package hw3;
  		System.out.println("阿文討厭數字" + hateValue);
  
  		for (int i = 1; i < 50; i++) {
+ 			//十位數字
  			int tenValue = (int) (i / 10);
  			if (i % 10 != hateValue && tenValue != hateValue) {
  				excludeArrays[countIn] = i;
